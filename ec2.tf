@@ -8,6 +8,6 @@ resource "aws_instance" "web" {
   }
 
   tags = {
-    Name = "kayventure-ec2"
+    Name = "kayventure-ec2-server"
   }
 }
