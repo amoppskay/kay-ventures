@@ -8,7 +8,7 @@ variable "AMI-Id" {
 variable "Instance-type" {
     type = string
     description = "EC2 instance type"
-    default = "t2.micro"
+    default = "t3.micro"
 
   
 }
