@@ -3,6 +3,9 @@ resource "aws_instance" "web" {
   instance_type = var.Instance-type
   monitoring = true
   ebs_optimized = true
+  root_block_device {
+    encrypted = true
+  }
 
   tags = {
     Name = "kayventure-ec2"
